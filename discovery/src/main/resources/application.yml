@@ -19,7 +19,7 @@ eureka:
     # Default is 60 seconds. Setting to 1000ms (1 second) makes the demo more
     # responsive - you'll see failed instances removed faster.
     # In production, keep the default (60000ms) to avoid unnecessary overhead.
-    eviction-interval-timer-in-ms: 1000
+    eviction-interval-timer-in-ms: 10000
     # Renewal threshold for self-preservation mode.
     # If less than 85% of instances renew their heartbeat, Eureka enters
     # self-preservation mode and stops evicting instances (assumes network issue).
